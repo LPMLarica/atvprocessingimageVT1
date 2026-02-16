@@ -29,11 +29,12 @@ The system also measures execution time for each method and allows graphical int
 
 ## Project Structure
 
+```bash
 ├── conversor_grayscale.py
 ├── relatorio_grayscale.html
 ├── README.md
 └── analise_metodos.txt (optional)
-
+```
 ---
 
 ## Installation
@@ -117,7 +118,7 @@ Mid-level computational cost
 ---
 
 </details>
-Performance Analysis
+<details> <summary><strong>Performance Analysis</strong></summary>
 The execution time is measured using Python’s high-resolution timer (time.perf_counter()).
 
 # General Observations:
