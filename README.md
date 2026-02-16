@@ -34,7 +34,7 @@ The system also measures execution time for each method and allows graphical int
 ├── README.md
 └── analise_metodos.txt (optional)
 
---
+---
 
 ## Installation
 
@@ -57,14 +57,17 @@ Tkinter is included by default in most Python distributions.
 python conversor_grayscale.py
 ```
 
-# Steps:
+---
+## Steps:
 
-## Select an image file.
-## Choose one of the three grayscale methods.
-## Click "Convert".
-## The converted image will be displayed.
-## The execution time will be shown.
-## The image will be saved automatically in the project directory.
+- Select an image file.
+- Choose one of the three grayscale methods.
+- Click "Convert".
+- The converted image will be displayed.
+- The execution time will be shown.
+- The image will be saved automatically in the project directory.
+
+---
 
 # Grayscale Conversion Methods
 <details> <summary><strong>Average Method</strong></summary>
@@ -80,6 +83,8 @@ Simple implementation
 Fast execution
 May produce less realistic brightness
 
+---
+
 </details>
 <details> <summary><strong>Luminosity Method</strong></summary>
 
@@ -94,6 +99,8 @@ Higher weight for green channel
 Produces more natural grayscale images
 Slightly more computationally intensive
 
+---
+
 </details>
 <details> <summary><strong>Desaturation Method</strong></summary>
 
@@ -107,6 +114,8 @@ Uses contrast extremes
 Preserves some contrast details
 Mid-level computational cost
 
+---
+
 </details>
 Performance Analysis
 The execution time is measured using Python’s high-resolution timer (time.perf_counter()).
@@ -119,15 +128,21 @@ Desaturation offers balanced contrast.
 Differences in execution time are minimal for small images.
 Larger images amplify performance differences.
 
+---
+
 # HTML Report Generation
 
 The project includes an HTML file that generates a professional PDF report.
+
+---
 
 ## To use it:
 
 1. Open relatorio_grayscale.html in a browser.
 2. Click "Gerar PDF".
 3. The report will be downloaded automatically.
+
+---
 
 ## The report includes:
 
@@ -136,6 +151,8 @@ The project includes an HTML file that generates a professional PDF report.
 - Comparison table
 - Performance chart
 - Author identification
+
+---
 
 ## Technologies Used: 
 
@@ -147,9 +164,13 @@ CSS3
 Chart.js
 html2pdf.js
 
+---
+
 ## Academic Context
 
 This project was developed to analyze grayscale conversion techniques and compare computational efficiency and visual quality across different algorithms.
+
+---
 
 ## It demonstrates:
 
@@ -158,3 +179,5 @@ This project was developed to analyze grayscale conversion techniques and compar
 2. Algorithm comparison
 
 3. Report generation using web technologies
+
+--
