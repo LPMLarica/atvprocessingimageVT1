@@ -19,6 +19,7 @@ def desaturation_method(r, g, b):
 #Image processing function
 
 def convert_image(image_path, method_name):
+    global gray
     img = Image.open(image_path).convert("RGB")
     width, height = img.size
     pixels = img.load()
