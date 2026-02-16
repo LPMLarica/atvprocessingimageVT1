@@ -32,8 +32,7 @@ The system also measures execution time for each method and allows graphical int
 ```bash
 ├── conversor_grayscale.py
 ├── relatorio_grayscale.html
-├── README.md
-└── analise_metodos.txt (optional)
+└── README.md
 ```
 ---
 
